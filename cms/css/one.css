@@ -1,0 +1,37 @@
+body{
+    background: url(../img/海滩.jpg) no-repeat;
+
+}
+.container{
+    width: 450px;
+    height: 280px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin: 200px auto;
+}
+form>input{
+    font-size: 26px;
+    color: #fff;
+    width: 300px;
+    height: 40px;
+    border: 1px solid #fff;
+    margin: 10px 25px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.1);
+    outline: none;
+}
+form>input:first-of-type{
+    margin-top: 30px;
+}
+form>input:last-of-type{
+    height: 30px;
+    font-size: 20px;
+}
+form>.check{
+    width: 100px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin-left: 25px;
+}
+

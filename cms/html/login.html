@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/one.css">
+    <script src="../js/jquery-1.12.4.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form action="http://www.qhdlink-student.top/student/login.php" method="POST">
+            <input type="text" name="username" placeholder="Username" id="username"><span id="namemsg"></span>
+            <input type="password" name="userpwd" placeholder="Password" id="pwd"><span id="pwdmsg"></span>
+            <input type="number" name="userclass" class="userclass" id="userclass"><span id="classmsg"></span>
+            <input type="hidden" name="type" value="2" id="types">
+            <!-- <p class="check"></p> -->
+            <input type="button" value="提交" name="btn" id="btn">
+        </form>
+    </div>
+</body>
+<script src="../js/check.js"></script>
+</html>
